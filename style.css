@@ -1,0 +1,73 @@
+body {
+    background: #090909;
+    color: #d4d4d4;
+    font-family: "Courier New", monospace;
+    padding: 20px;
+}
+
+.game {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background: #171717;
+    border: 2px solid #790000;
+    box-shadow: 0 0 25px #4d0000;
+}
+
+h1 {
+    color: #bd1717;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.warning {
+    color: #c52c2c;
+    text-align: center;
+    font-size: 12px;
+}
+
+#story {
+    line-height: 1.8;
+    white-space: pre-line;
+    margin: 25px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 12px 0;
+    padding: 14px;
+    color: white;
+    background: #292929;
+    border: 1px solid #920000;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+}
+
+button:hover {
+    background: #690000;
+}
+
+#status {
+    color: #a9a9a9;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gameover {
+    color: #ff3333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.success {
+    color: #65dc83;
+    font-size: 20px;
+}
